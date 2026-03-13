@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nicholas Twardeski
+# DATE: 3/13/26
+# BRIEF DESCRIPTION:  Compliment 2 Lab
 
 
 
@@ -15,7 +15,29 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    compliment1()
 
+
+def compliment1():
+
+    choice = (input('Would you like a compliment?'))
+
+    if choice == 'yes':
+        print('You have wonderful eyes.')
+
+    else:
+        print('No compliment for you!')
+
+    print('Thank you for playing.')
+
+
+
+
+
+
+
+main()
 
 
 
@@ -73,7 +95,7 @@ Thank you for playing.
 
 
 
-
+NO
 
 
 
